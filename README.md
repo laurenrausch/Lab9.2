@@ -23,18 +23,14 @@ If you refresh the page, the evil circle that consumes the bouncing balls will m
 
 ## Sources and Credits
 
-MozDevNet. “Challenge: Adding Features to Our Bouncing Balls Demo - Learn Web Development: MDN.” MDN Web Docs, developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features. Accessed 13 Mar. 2025. 
-MozDevNet. “Constructor - Javascript: MDN.” MDN Web Docs, developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor. Accessed 13 Mar. 2025. 
-MozDevNet. “Object Prototypes - Learn Web Development: MDN.” MDN Web Docs, developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_prototypes. Accessed 13 Mar. 2025. 
-Stew. “Making a Simple Counter in Javascript & HTML.” DEV Community, 3 Sept. 2019, dev.to/stewyearth/making-a-simple-counter-in-javascript-html-2ici. Accessed 13 Mar. 2025. 
-“W3schools.Com.” JavaScript Const, www.w3schools.com/js/js_const.asp. Accessed 13 Mar. 2025. 
+- MozDevNet. “Challenge: Adding Features to Our Bouncing Balls Demo - Learn Web Development: MDN.” MDN Web Docs, developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Adding_bouncing_balls_features. Accessed 13 Mar. 2025. 
 
-A simple bulleted list below is sufficient. For example:
+- MozDevNet. “Constructor - Javascript: MDN.” MDN Web Docs, developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor. Accessed 13 Mar. 2025. 
 
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+- MozDevNet. “Object Prototypes - Learn Web Development: MDN.” MDN Web Docs, developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_prototypes. Accessed 13 Mar. 2025.
+
+- Stew. “Making a Simple Counter in Javascript & HTML.” DEV Community, 3 Sept. 2019, dev.to/stewyearth/making-a-simple-counter-in-javascript-html-2ici. Accessed 13 Mar. 2025. 
+
+- “W3schools.Com.” JavaScript Const, www.w3schools.com/js/js_const.asp. Accessed 13 Mar. 2025. 
+
+

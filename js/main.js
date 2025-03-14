@@ -22,7 +22,7 @@ function randomRGB() {
 }
 
 function updateDisplay() {
-  count.innerHTML = `Ball Count: ${c}`;
+  count.innerHTML = "Ball Count: " + c;
 };
 
 
@@ -35,6 +35,7 @@ class Shape {
   }
 }
 
+updateDisplay();
 class Ball extends Shape {
   exists;
   constructor(x, y, velX, velY, color, size) {
@@ -157,7 +158,7 @@ class EvilCircle extends Shape {
 
 
 const balls = [];
-const evil = new EvilCircle(random(100, 1500), random(300, 500));
+const evil = new EvilCircle(random(300, 1100), random(200, 600));
 
 
 while (balls.length < 25) {

@@ -2,7 +2,7 @@
 
 ## Running my website!
 
-This is a webpage that displays a series of bouncing balls moving around the monitor. This page also features an Evil Circle that will slowly eat the bouncing balls! You will be able to watch and see how many balls are left as they get eaten by the evil circle.
+This is a webpage that displays a series of bouncing balls moving around the monitor. This page also features an Evil Circle that will slowly eat the bouncing balls! You will be able to watch and see how many balls are left as they get eaten by the evil circle. You can use your arow keys or your W A S D keys to move your circle arund to eat the bouncing balls!
 
 
 You can run the website through Live Preview VSCode extension which will start the local server for the webpage, run it with the following keystroke: 

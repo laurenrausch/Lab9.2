@@ -1,10 +1,13 @@
 // set up canvas
 
 const canvas = document.querySelector("canvas");
+let count = document.querySelector('.count');
 const ctx = canvas.getContext("2d");
 
 const width = (canvas.width = window.innerWidth);
 const height = (canvas.height = window.innerHeight);
+
+let c = 25;
 
 // function to generate random number
 
@@ -17,6 +20,10 @@ function random(min, max) {
 function randomRGB() {
   return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
 }
+
+function updateDisplay() {
+  count.innerHTML = `Ball Count: ${c}`;
+};
 
 
 class Shape {
@@ -82,7 +89,6 @@ class Ball extends Shape {
   }
 }
 
-
 class EvilCircle extends Shape {
   constructor(x, y) {
     super(x, y, 20, 20);
@@ -141,6 +147,8 @@ class EvilCircle extends Shape {
 
         if (distance < this.size + ball.size) {
           ball.exists = false;
+          c--;
+          updateDisplay();
         }
       }
     }
@@ -149,7 +157,8 @@ class EvilCircle extends Shape {
 
 
 const balls = [];
-const evil = new EvilCircle(1000, 250);
+const evil = new EvilCircle(random(Math.random(1000)), Math.random(1000));
+
 
 while (balls.length < 25) {
   const size = random(10, 20);
@@ -163,7 +172,6 @@ while (balls.length < 25) {
     randomRGB(),
     size
   );
-
   balls.push(ball);
 }
 

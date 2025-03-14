@@ -1,8 +1,23 @@
 # CS408 - Lab9.2
 
-## Overview
+## Running my website!
 
-TODO: Write a project description
+## Step One
+
+Before running, clone this repository and run the following commands:
+
+```bash
+npm install
+```
+## Step Two
+
+You can run the website through Live Preview VSCode extension which will start the local server for the webpage, run it with the following keystroke: 
+
+    Ctrl+Shift+P
+    Live Preview: Start Sever
+
+From here you should be able to use the website and be able to see changes or adjustments in real time!
+You can also use the same URL from the live preview and use it in an actual browser page and be able to see the same result. (I recommend this method because then you can see the full page better.)
 
 ## Sources and Credits
 

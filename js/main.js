@@ -158,7 +158,7 @@ class EvilCircle extends Shape {
 
 
 const balls = [];
-const evil = new EvilCircle(random(300, 1100), random(200, 600));
+const evil = new EvilCircle(random(250, 1200), random(150, 500));
 
 
 while (balls.length < 25) {
